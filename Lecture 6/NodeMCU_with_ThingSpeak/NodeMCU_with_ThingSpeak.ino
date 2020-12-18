@@ -3,7 +3,7 @@
 #include <ThingSpeak.h>
 DHT dht(D5, DHT11);
 WiFiClient client;
-long myChannelNumber = 1047069;
+long myChannelNumber = ENTER_CHANNEL_ID;
 const char myWriteAPIKey[] = "ENTER_KEY";
 void setup() {
   // put your setup code here, to run once:
